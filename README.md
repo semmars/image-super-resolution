@@ -56,7 +56,7 @@ loss_weights = {
   'discriminator': 0.01
 }
 ```
-### Weights loading
+### Weights loading 
 If you are having trouble loading your own weights or the pre-trained weights (`AttributeError: 'str' object has no attribute 'decode'`), try:
 ```bash
 pip install 'h5py==2.10.0' --force-reinstall
@@ -112,6 +112,10 @@ RDN model, trained with Adversarial and VGG features losses, choose the option `
 There are two ways to install the Image Super-Resolution package:
 
 - Install ISR from PyPI (recommended):
+```
+pip install 'h5py==2.10.0' --force-reinstall
+```
+
 ```
 pip install ISR
 ```
